@@ -380,3 +380,76 @@ h2{font-size:clamp(30px,4vw,44px); margin:8px 0 14px}
 .reveal.in{opacity:1; transform:none}
 .reveal.delay-1{transition-delay:.1s}
 .reveal.delay-2{transition-delay:.2s}
+
+
+/* --- YDT / YDS / YÖKDİL hero enhancements --- */
+.hero-osym{
+  margin-top:18px;
+  background:white;
+  border:1px solid var(--line);
+  border-left:4px solid #B42318;
+  border-radius:14px;
+  padding:14px 16px;
+  box-shadow:var(--shadow);
+}
+.osym-head{
+  display:flex; align-items:center; gap:8px; flex-wrap:wrap;
+}
+.osym-badge{
+  background:#B42318; color:white; padding:4px 8px; border-radius:999px;
+  font-weight:800; letter-spacing:.08em; font-size:10px;
+  border:1px solid #9B1B13;
+}
+.osym-head strong{
+  font-family:"Fraunces",serif; font-size:14px; color:var(--navy); letter-spacing:-.01em;
+}
+.osym-head em{
+  color:var(--muted); font-family:"Newsreader",serif; font-style:italic; font-size:12px;
+}
+.hero-osym p{
+  font-size:13.5px; color:#2E3A49; margin:8px 0 10px; line-height:1.6;
+}
+.osym-pills{display:flex; gap:6px; flex-wrap:wrap}
+.osym-pills span{
+  background:#FFF1F0; border:1px solid #FECAC0; color:#7A1F14;
+  padding:5px 10px; border-radius:999px; font-size:11px; font-weight:700; letter-spacing:.04em;
+}
+
+/* second teacher card in hero visual */
+.hero-visual{
+  display:flex; flex-direction:column; gap:16px; align-items:center;
+}
+.second-teacher-card{
+  position:relative; z-index:1; background:white; border:1px solid var(--line);
+  border-radius:var(--radius-lg); box-shadow:var(--shadow-lg); overflow:hidden; width:min(460px,100%);
+  border-top:3px solid #B42318;
+}
+.second-teacher-top{
+  display:flex; gap:14px; padding:16px; align-items:center; background:linear-gradient(180deg, #FFF8F7, #FFFFFF);
+  border-bottom:1px solid var(--line);
+}
+.second-teacher-top img{
+  width:64px; height:64px; border-radius:14px; object-fit:cover; border:1px solid var(--line); flex-shrink:0;
+}
+.second-teacher-top div{display:grid; gap:2px}
+.st-badge{
+  font-size:10px; font-weight:800; letter-spacing:.1em; text-transform:uppercase;
+  color:#B42318; background:#FFF1F0; border:1px solid #FECAC0; padding:3px 8px; border-radius:999px; width:fit-content;
+}
+.second-teacher-top strong{font-family:"Fraunces",serif; font-size:15px; color:var(--navy); line-height:1.1}
+.second-teacher-top span{font-size:12px; color:var(--muted)}
+.second-teacher-body{
+  display:grid; grid-template-columns:repeat(3,1fr); gap:0; border-bottom:1px solid var(--line);
+}
+.st-stat{padding:12px 8px; text-align:center; border-right:1px solid var(--line)}
+.st-stat:last-child{border-right:none}
+.st-stat strong{display:block; font-family:"Fraunces",serif; font-size:18px; color:#7A1F14; line-height:1}
+.st-stat span{display:block; font-size:10px; letter-spacing:.08em; text-transform:uppercase; font-weight:700; color:var(--muted); margin-top:2px}
+.st-note{margin:12px 16px 12px; font-size:12.5px; color:#3A2A2A; background:#FFF8F7; border:1px solid #FCE8E5; padding:8px 10px; border-radius:10px; line-height:1.5}
+.second-teacher-card .btn{margin:0 16px 16px}
+
+/* ensure hero-grid still aligns */
+@media(max-width:900px){
+  .hero-visual{order:-1}
+}
+
