@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url><loc>https://mikegit-lb.github.io/good.1/</loc><xhtml:link rel="alternate" hreflang="en" href="https://mikegit-lb.github.io/good.1/"/><xhtml:link rel="alternate" hreflang="tr" href="https://mikegit-lb.github.io/good.1/tr/"/><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://mikegit-lb.github.io/good.1/tr/</loc><xhtml:link rel="alternate" hreflang="en" href="https://mikegit-lb.github.io/good.1/"/><xhtml:link rel="alternate" hreflang="tr" href="https://mikegit-lb.github.io/good.1/tr/"/><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://mikegit-lb.github.io/good.1/</loc><xhtml:link rel="alternate" hreflang="en" href="https://mikegit-lb.github.io/good.1/"/><xhtml:link rel="alternate" hreflang="tr" href="https://mikegit-lb.github.io/good.1/tr/"/><xhtml:link rel="alternate" hreflang="ar" href="https://mikegit-lb.github.io/good.1/ar/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://mikegit-lb.github.io/good.1/"/><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://mikegit-lb.github.io/good.1/tr/</loc><xhtml:link rel="alternate" hreflang="en" href="https://mikegit-lb.github.io/good.1/"/><xhtml:link rel="alternate" hreflang="tr" href="https://mikegit-lb.github.io/good.1/tr/"/><xhtml:link rel="alternate" hreflang="ar" href="https://mikegit-lb.github.io/good.1/ar/"/><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://mikegit-lb.github.io/good.1/ar/</loc><xhtml:link rel="alternate" hreflang="en" href="https://mikegit-lb.github.io/good.1/"/><xhtml:link rel="alternate" hreflang="tr" href="https://mikegit-lb.github.io/good.1/tr/"/><xhtml:link rel="alternate" hreflang="ar" href="https://mikegit-lb.github.io/good.1/ar/"/><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://mikegit-lb.github.io/good.1/#services</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://mikegit-lb.github.io/good.1/tr/#services</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://mikegit-lb.github.io/good.1/ar/#services</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://mikegit-lb.github.io/good.1/#about</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://mikegit-lb.github.io/good.1/ar/#about</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://mikegit-lb.github.io/good.1/tr/#about</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://mikegit-lb.github.io/good.1/#resources</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://mikegit-lb.github.io/good.1/tr/#resources</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mikegit-lb.github.io/good.1/ar/#resources</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://mikegit-lb.github.io/good.1/#membership</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://mikegit-lb.github.io/good.1/tr/#membership</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://mikegit-lb.github.io/good.1/ar/#membership</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://mikegit-lb.github.io/good.1/#clubs</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://mikegit-lb.github.io/good.1/tr/#clubs</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://mikegit-lb.github.io/good.1/ar/#clubs</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://mikegit-lb.github.io/good.1/#contact</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://mikegit-lb.github.io/good.1/tr/#contact</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://mikegit-lb.github.io/good.1/ar/#contact</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
 </urlset>
