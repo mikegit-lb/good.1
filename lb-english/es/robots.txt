@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://mikegit-lb.github.io/good.1/sitemap.xml
