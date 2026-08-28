@@ -546,6 +546,30 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 [dir="rtl"] .section-head{text-align:center} /* keep centered */
 [dir="rtl"] .testi-person{flex-direction:row-reverse}
 
+
+/* Language dropdown — clean for 7 langs */
+.lang-switch.dropdown{position:relative; display:inline-flex}
+.lang-btn{
+  display:inline-flex; align-items:center; gap:6px; padding:7px 12px; border-radius:999px;
+  border:1px solid #ECE8DE; background:white; font-size:12.5px; font-weight:700; color:var(--navy); cursor:pointer;
+}
+.lang-btn:hover{border-color:var(--navy)}
+.lang-menu{
+  position:absolute; top:calc(100% + 8px); right:0; min-width:200px; background:white;
+  border:1px solid #ECE8DE; border-radius:12px; box-shadow:0 12px 32px rgba(11,36,71,.10); padding:6px;
+  display:none; grid-template-columns:1fr; gap:4px; z-index:35;
+}
+.lang-switch.open .lang-menu{display:grid}
+.lang-menu a{
+  padding:8px 10px; border-radius:8px; font-size:13px; font-weight:500; color:#2A3A52; display:flex; justify-content:space-between; align-items:center;
+}
+.lang-menu a:hover{background:#F9F7F3; color:var(--navy)}
+.lang-menu a.active{background:#F3EFE6; color:var(--navy); font-weight:700}
+[dir="rtl"] .lang-menu{right:auto; left:0}
+
+[lang="zh"] body{font-family:"Noto Sans SC","Instrument Sans",system-ui,sans-serif; line-height:1.8}
+[lang="zh"] h1,[lang="zh"] h2,[lang="zh"] h3{font-family:"Noto Sans SC",sans-serif; letter-spacing:-.01em}
+
 /* Reveal */
 .reveal{opacity:0; transform:translateY(14px); transition:.6s ease}
 .reveal.in{opacity:1; transform:none}

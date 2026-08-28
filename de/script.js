@@ -118,15 +118,15 @@ function showToast(msg){
 window.openLead = (source)=>{
   if(!leadModal) return;
   leadSource.value = source;
-  leadKicker.textContent = 'Free Resource';
+  leadKicker.textContent = 'Gratis Ressource';
   leadTitle.textContent = source;
-  leadDesc.textContent = 'Enter your email — instant download, plus one useful follow-up. No spam. GDPR safe.';
+  leadDesc.textContent = 'E-Mail eingeben — sofortiger Download + ein Follow-up. Kein Spam. DSGVO.';
   leadModal.showModal();
   setTimeout(()=> document.getElementById('leadEmail')?.focus(), 80);
 }
 window.openCheckout = (plan)=>{
   const p = yearly ? 'Yearly' : 'Monthly';
-  showToast(`Great choice — ${plan} (${p}) — checkout opening (demo). Your spot will be held for 15 min.`);
+  showToast(`Gute Wahl — ${plan} (${p}) — Checkout öffnet (Demo). Platz 15 Min reserviert.`);
   setTimeout(()=> window.openLead(plan + ' — ' + p + ' Membership'), 900);
 }
 window.handleLead = (e)=>{
@@ -134,7 +134,7 @@ window.handleLead = (e)=>{
   const email = document.getElementById('leadEmail').value;
   const source = document.getElementById('leadSource').value;
   leadModal.close();
-  showToast(`Sent! Check ${email} for "${source}" — if not in inbox, check spam. Welcome to L.B. English Co.`);
+  showToast(`Gesendet! Prüfe ${email} für "${source}" — falls nicht im Posteingang, Spam prüfen. Willkommen bei L.B. English Co.`);
   e.target.reset();
 }
 window.handleBooking = (e)=>{
@@ -143,7 +143,7 @@ window.handleBooking = (e)=>{
   const name = fd.get('firstName');
   const goal = fd.get('goal');
   e.target.reset();
-  showToast(`Thank you, ${name}! Your free call request for "${goal}" is received. We’ll email you within 6 hours to confirm your slot.`);
+  showToast(`Danke, ${name}! Your free call request für "${goal}" erhalten. Wir mailen binnen 6h zur Bestätigung.`);
   toggleMenu(false);
 }
 document.querySelectorAll('dialog').forEach(d=>{
@@ -196,7 +196,7 @@ const commands = [
   {id:'business', label:'Business English', desc:'Meetings • pitches • LinkedIn polish', icon:'BE', href:'#services'},
   {id:'clubs', label:'Speaking Clubs', desc:'Twice weekly • Max 8 • £9', icon:'◐', href:'#clubs'},
   {id:'pricing', label:'Membership — Scholar £29 / Elite £79', desc:'Tailored packs + corrections', icon:'£', href:'#membership'},
-  {id:'resources', label:'Free Resources', desc:'IELTS Band 9 PDF • TOEFL audio • Phrase bank', icon:'◈', href:'#resources'},
+  {id:'resources', label:'Gratis Ressources', desc:'IELTS Band 9 PDF • TOEFL audio • Phrase bank', icon:'◈', href:'#resources'},
   {id:'consult', label:'Book Free 20-min Consult', desc:'Level check • roadmap • no card', icon:'→', href:'#contact'},
   {id:'about', label:'About Both Teachers', desc:'Native 12y + ÖSYM 5y specialist', icon:'★', href:'#about'},
 ];

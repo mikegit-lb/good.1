@@ -258,4 +258,18 @@ window.addEventListener('scroll', ()=>{
 },{passive:true});
 bottomBar && (bottomBar.style.transition='transform .22s ease');
 
+
+// Language dropdown toggle
+document.querySelectorAll('.lang-switch.dropdown').forEach(sw=>{
+  const btn=sw.querySelector('.lang-btn');
+  const menu=sw.querySelector('.lang-menu');
+  btn?.addEventListener('click', e=>{
+    e.stopPropagation();
+    const open=sw.classList.toggle('open');
+    btn.setAttribute('aria-expanded', String(open));
+  });
+});
+document.addEventListener('click', ()=> document.querySelectorAll('.lang-switch.open').forEach(s=>{s.classList.remove('open'); s.querySelector('.lang-btn')?.setAttribute('aria-expanded','false')}));
+document.addEventListener('keydown', e=>{ if(e.key==='Escape') document.querySelectorAll('.lang-switch.open').forEach(s=>{s.classList.remove('open'); s.querySelector('.lang-btn')?.setAttribute('aria-expanded','false')})});
+
 // Performance: lazy hydration for below-fold images already via loading="lazy"
